@@ -1,0 +1,9 @@
+name: Notify Build
+on: [push, workflow_dispatch]
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build
+        run: |
+          npm run deploy
