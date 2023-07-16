@@ -25,7 +25,7 @@ document.querySelector('#app').innerHTML = `
       <button id="counter" type="button"></button>
     </div>
     <p class="read-the-docs">
-      Last build was on ${today}.
+      Last build was on ${today} <3.
     </p>
   </div>
 `
