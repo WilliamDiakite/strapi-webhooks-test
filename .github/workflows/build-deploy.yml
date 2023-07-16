@@ -20,10 +20,10 @@ jobs:
 
       - name: Set Git Identity
         run: |
-          git config --global user.email "william.diakite@gmail.com" |
+          git config --global user.email "william.diakite@gmail.com" 
           git config --global user.name "WilliamDiakite"
 
       - name: Build and Deploy
         run: |
-          npm run deploy |
+          npm run deploy 
           git config credential.helper store
